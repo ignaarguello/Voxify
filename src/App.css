@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fuente-primaria);
+}
+
+:root{
+  --color-primario: #ED7040;
+  --fuente-primaria: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Resolucion Mobile */
+@media screen and (min-width: 360px) {
+  .App{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+
+/* Resolucion Laptops */
+@media screen and (min-width: 1280px) {
+  .App{
+    /* border: 2px solid green; */
+    height: 100vh;
+    width: 100%;
+    padding: 2.5rem;
+  }
+
+  .Dashboard{
+   /* border: 2px solid blue; */
+   height: 100%;
+   background-color: white;
+   border-radius: 30px;
+   display: flex;
+  }
+}

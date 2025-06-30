@@ -1,0 +1,14 @@
+/*? Resolucion Mobile */
+@media screen and (min-width: 360px) { 
+}
+
+/*? Resolucion Laptop */
+@media screen and (min-width: 1280px) { 
+    #MainContent {
+       /*  border: 4px solid greenyellow; */
+        width: 75%;
+        border-radius: 30px;
+        padding: 2rem;
+    }
+    
+}
