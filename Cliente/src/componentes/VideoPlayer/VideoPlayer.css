@@ -11,8 +11,8 @@
 @media screen and (min-width:1280px) {
     #ContenedorVideoPlayer{
         /* border: 2px solid green; */
-        width: 35rem;
+        width: 40rem;
         padding: 0;
-        margin: 0rem 0 0 2rem;
+        margin: 0rem 0 0 1.5rem;
     }
 }

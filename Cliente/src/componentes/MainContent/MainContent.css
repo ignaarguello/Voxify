@@ -15,13 +15,43 @@
     /*! 1 */
     #SeccionFila_1{
         /* border: 2px solid red; */
-        height: 60%;
+        height: 55%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: .3rem;
+        align-items: center;
+    }
+
+    #ContenedorImage{
+       /*  border: 2px solid red; */
+        width: 30%;
+        height: 100%;
+        align-self: center;
+        background-image: url(https://marketplace.canva.com/ZZ-_4/MAEb5BZZ-_4/1/s2/canva-sin-t%C3%ADtulo-MAEb5BZZ-_4.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #TituloPruebaGratis{
+        background-color: var(--color-primario);
+        width: 100%;
+        text-align: center;
+        font-weight: 200;
+        color: white;
+        padding: 5px;
+        border-radius: 0px 00px 30px 30px;
+        cursor: pointer;
+        font-size: 19px;
     }
 
     /*! 2 */
     #SeccionFila_2{
-        border: 2px solid khaki;
-        height: 43%;
+        /* border: 2px solid steelblue; */
+        height: 45%;
     }
     
 }
