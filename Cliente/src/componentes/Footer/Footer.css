@@ -1,7 +1,14 @@
 /* Resolucion Mobile */
 @media screen and (min-width:360px) {
     #Footer{
-        border: 2px solid palevioletred;
-        
+        /* border: 2px solid palevioletred; */
+    }
+}
+
+/* Resolucion Laptops */
+@media screen and (min-width:1280px) {
+    #Footer{
+        /* border: 2px solid palevioletred; */
+        height: 20%;
     }
 }

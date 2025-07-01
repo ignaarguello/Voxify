@@ -1,0 +1,99 @@
+/* Resolucion Mobile */
+@media screen and (min-width: 360px) {}
+
+/* Resolucion Laptops */
+@media screen and (min-width: 1280px) {
+    #SelectorCanciones {
+        /* border: 2px solid greenyellow; */
+        height: 80%;
+        width: 50%;
+    }
+
+    /* Titulo Principal */
+    #TituloMisCanciones {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        font-weight: 400;
+        font-size: 1.3rem;
+        margin: .5rem 0rem 0rem 1.5rem;
+    }
+
+    /* Envolvente del componente de las canciones */
+    #WrapperCanciones {
+        /* border: 2px solid slateblue; */
+        margin: 0.5rem 0rem 0rem 1rem;
+        width: 50%;
+        height: 8rem;
+        overflow: scroll;
+        border-radius: 30px;
+        border: 1px solid gainsboro;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    /* Elemento Cancion */
+    .ElementoCancion_SelectorCanciones{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        margin: 0px 0;
+        height: 33%;
+        transition: .4s ease-in-out;
+    }
+
+    .ElementoCancion_SelectorCanciones:hover{
+        background-color: gainsboro;
+    }
+    
+    .NombreCancion_SelectorCanciones {
+        font-size: .9rem;
+        font-weight: 400;
+        color: grey;
+    }
+
+    #IconoPlay{
+        color: var(--color-primario);
+    }
+
+    ::-webkit-scrollbar {
+        display: none; /* Hace que la barra de scroll sea invisible */
+    }
+}
+
+/* Resolucion Macbook Air */
+@media screen and (min-width: 1440px) {
+    #SelectorCanciones {
+        /* border: 2px solid greenyellow; */
+        height: 80%;
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+    /* Titulo Principal */
+    #TituloMisCanciones {
+        /* border: 2px solid blue; */
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    /* Envolvente del componente de las canciones */
+    #WrapperCanciones {
+        /* border: 2px solid slateblue; */
+        height: 12rem;
+        margin: 0.5rem 0rem 0rem 1.2rem;
+
+    }
+
+    .NombreCancion_SelectorCanciones {
+      /*   border: 2px solid red; */
+        font-weight: 400;
+        padding-left: .4rem;
+    }
+
+    #IconoPlay{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+}

@@ -7,6 +7,7 @@ import './MainContent.css'
 import VideoPlayer from '../VideoPlayer/VideoPlayer'
 import HeaderContent from '../HeaderContent/HeaderContent'
 import Footer from '../Footer/Footer'
+import SelectorCanciones from '../SelectorCanciones/SelectorCanciones'
 
 export default function MainContent() {
   return (
@@ -19,6 +20,7 @@ export default function MainContent() {
         </div>
       </section>
       <section id='SeccionFila_2'>
+        <SelectorCanciones />
         <Footer />
       </section>
     </div>

@@ -10,6 +10,7 @@
         border-radius: 30px;
         display: flex;
         flex-direction: column;
+        background-color: oklch(96.7% 0.001 286.375);
     }
 
     /*! 1 */
@@ -50,7 +51,7 @@
 
     /*! 2 */
     #SeccionFila_2{
-        border: 2px solid steelblue;
+        /* border: 2px solid steelblue; */
         height: 45%;
         display: flex;
         flex-direction: column;
