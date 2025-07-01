@@ -50,8 +50,10 @@
 
     /*! 2 */
     #SeccionFila_2{
-        /* border: 2px solid steelblue; */
+        border: 2px solid steelblue;
         height: 45%;
+        display: flex;
+        flex-direction: column;
     }
     
 }

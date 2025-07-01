@@ -13,9 +13,9 @@
 
     #LogoVoxify{
          /* border: 3px solid forestgreen; */
-         border-radius: 50px;
-         height: 6rem;
-         width: 6rem;
+         border-radius: 60px;
+         height: 7rem;
+         width: 7rem;
          background-image: url('../../../public/imagenes/logo/VoxifyLogo.png');
          background-size: contain;
          background-position: center;
