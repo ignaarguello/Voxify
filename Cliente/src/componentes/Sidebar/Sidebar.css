@@ -5,7 +5,21 @@
         border-radius: 30px;
         height: 100%;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
     }
+
+    #LogoVoxify{
+         /* border: 3px solid forestgreen; */
+         border-radius: 50px;
+         height: 6rem;
+         width: 6rem;
+         background-image: url('../../../public/imagenes/logo/VoxifyLogo.png');
+         background-size: contain;
+         background-position: center;
+     }
 }
 
 /*? Resolucion Laptops */
@@ -14,8 +28,9 @@
        /*  border: 4px solid brown; */
         border-radius: 30px;
         height: 100%;
-        width: 20%;
+        width: 23%;
         border-right: 1px solid gainsboro;
+        margin-top: 0; /* Corrige la altura que viene de mobile */
     }
 
     #LogoVoxify{

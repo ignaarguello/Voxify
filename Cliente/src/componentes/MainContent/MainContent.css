@@ -6,9 +6,22 @@
 @media screen and (min-width: 1280px) { 
     #MainContent {
        /*  border: 4px solid greenyellow; */
-        width: 75%;
+        width: 100%; /* Altura general del Main */
         border-radius: 30px;
-        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*! 1 */
+    #SeccionFila_1{
+        /* border: 2px solid red; */
+        height: 60%;
+    }
+
+    /*! 2 */
+    #SeccionFila_2{
+        border: 2px solid khaki;
+        height: 43%;
     }
     
 }
