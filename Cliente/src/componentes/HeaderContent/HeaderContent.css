@@ -23,6 +23,7 @@
     display: flex;
     align-items: center;
     margin: 0; /* Reseteo */
+    border-left: 1px solid gainsboro;
   }
 
   #TituloHeaderContent {

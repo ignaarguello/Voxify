@@ -8,9 +8,10 @@
 /* Resolucion Laptops */
 @media screen and (min-width:1280px) {
     #Footer{
-        /* border: 3px solid palevioletred; */
+       /*  border: 3px solid palevioletred; */
+        border-radius: 0 0 20px 0;
         width: 100%;
-        height: 23%;
+        height: 10%;
         display: flex;
         justify-content: flex-end;
         align-items: center;

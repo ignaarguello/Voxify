@@ -1,0 +1,36 @@
+@media screen and (min-width: 1280px) {
+/* Contenedor Padre - Aplicación  */
+  #ContenedorGeneralLayout{
+   /*  border: 2px solid red; */
+    background-color: rgb(73, 73, 73);
+    height: 100vh;
+    padding: 2rem;
+  }
+
+  /* Subcontenedor - Representa al Dashboard - Background Blanco */
+  #SubcontenedorDashboard{
+    /* border: 2px solid slateblue; */
+    border-radius: 20px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  /* Contenedor de Layout y Footer */
+  #ContenidoLayout{
+  /*   border: 2px solid greenyellow; */
+    width: 90%;
+    height: 100%;
+  }
+
+
+  #ChildrenLayout{
+   /*  border: 2px solid sienna; */
+    height: 78%;
+    border-radius: 0 20px 0px 0px;
+    border-bottom: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+  }
+    
+}

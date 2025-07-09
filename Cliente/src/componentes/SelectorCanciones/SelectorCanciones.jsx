@@ -11,7 +11,6 @@ const DataArrayCanciones = ['A las nueve', 'Dime que te paso', 'Colgando en tu m
 export default function SelectorCanciones() {
     return (
         <div id='SelectorCanciones'>
-            <h2 id='TituloMisCanciones'>Mis Canciones</h2>
             <div id='WrapperCanciones'>
                 {
                     DataArrayCanciones.map(elem =>
