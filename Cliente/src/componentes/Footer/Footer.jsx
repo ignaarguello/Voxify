@@ -8,7 +8,7 @@ export default function Footer() {
     <div id='Footer'>
       {/* Menu Crear */}
       <div id='MenuCrearNuevaSesion'>
-        <span>Nueva Sesión</span>
+        <span onClick={() => alert('Creando Sesion...')}>Nueva Sesión</span>
       </div>
     </div>
   )
