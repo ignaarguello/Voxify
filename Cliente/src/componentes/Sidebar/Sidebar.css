@@ -2,7 +2,7 @@
 @media screen and (min-width: 360px) {
     #Sidebar {
         /* border: 2px solid red; */
-        border-radius: 30px;
+        /* border-radius: 30px; */
         height: 100%;
         width: 100%;
         display: flex;
@@ -26,10 +26,10 @@
 @media screen and (min-width: 1280px) {
     #Sidebar {
        /*  border: 4px solid brown; */
-        border-radius: 30px;
+        /* border-radius: 30px; */
         height: 100%;
         width: 23%;
-        border-right: 1px solid gainsboro;
+       /*  border-right: 1px solid gainsboro; */
         margin-top: 0; /* Corrige la altura que viene de mobile */
     }
 
