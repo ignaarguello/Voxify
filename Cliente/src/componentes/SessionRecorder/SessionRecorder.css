@@ -1,0 +1,55 @@
+/*? Resolucion Mobile */
+@media screen and (min-width: 360px) {}
+
+/*? Resolucion Mobile */
+@media screen and (min-width: 1280px) {
+    #SessionRecorderWrapper {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-left: 3rem;
+    }
+
+    #SessionRecorderWrapper h2 {
+        color: white;
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    #BotonGrabar_NS {
+        background-color: var(--color-primario);
+        width: max-content;
+        color: white;
+        padding: 10px 50px;
+        font-size: 18px;
+        margin: 1.5rem 0 0 5rem;
+        border-radius: 50px;
+        font-weight: 200;
+        cursor: pointer;
+        transition: .5s ease;
+    }
+
+    #BotonGrabar_NS:hover {
+        transform: scale(1.1);
+    }
+
+    /* Wrapper del Video */
+    #VideoActiveSessionWrapper{
+        /* border: 2px solid red; */
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Video Activo */
+    #VideoActiveSession {
+        width: 100%;
+        height: 100%;
+        transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}

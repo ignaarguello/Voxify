@@ -1,6 +1,19 @@
 @media screen and (min-width: 1280px) {
     #PaginaNuevaSesion {
+        /* border: 2px solid saddlebrown; */
         width: 100%;
         height: 100%;
     }
+
+    /* Contenedor - 1 */
+    .Subcontenedor_NuevaSession:nth-child(1) {
+       /* border: 2px solid red; */
+       height: 65%;
+    }
+
+    /* Contenedor - 2 */
+    .Subcontenedor_NuevaSession:nth-child(2) {
+        /* border: 2px solid greenyellow; */
+        height: 35%;
+     }
 }
