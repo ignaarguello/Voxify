@@ -3,37 +3,23 @@
 
 /*? Resolucion Mobile */
 @media screen and (min-width: 1280px) {
+    /* Contenedor Padre */
     #SessionRecorderWrapper {
-        width: 65%;
+       /*  border: 2px solid red; */
+        width: 100%;
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         border-radius: 5px;
-        margin-left: 3rem;
+        padding: 1rem;
     }
 
+    /* Titulo */
     #SessionRecorderWrapper h2 {
         color: white;
         font-weight: 200;
         font-size: 20px;
-    }
-
-    #BotonGrabar_NS {
-        background-color: var(--color-primario);
-        width: max-content;
-        color: white;
-        padding: 10px 50px;
-        font-size: 18px;
-        margin: 1.5rem 0 0 5rem;
-        border-radius: 50px;
-        font-weight: 200;
-        cursor: pointer;
-        transition: .5s ease;
-    }
-
-    #BotonGrabar_NS:hover {
-        transform: scale(1.1);
     }
 
     /* Wrapper del Video */
@@ -52,4 +38,40 @@
         object-fit: cover;
         border-radius: 10px;
     }
+
+    /* Contenedor Pre render */
+    #Contenedor-Pre-Render{
+      /*   border: 2px solid green; */
+        width: 100%;
+        height: 100%;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); 
+    }
+
+    /* Botones Grabar/Stop - Contenendor */
+    #Grabar-Stop_NS{
+       /*  border: 2px solid red; */
+        padding: .8rem;
+        width: 40%;
+        height: 22%;
+        display: flex;
+    }
+
+
+    #BotonGrabar_NS {
+        background-color: var(--color-primario);
+        color: white;
+        height: 100%;
+        padding: 10px 50px;
+        font-size: 18px;
+        border-radius: 50px;
+        font-weight: 200;
+        cursor: pointer;
+        transition: .5s ease;
+        margin: 0 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

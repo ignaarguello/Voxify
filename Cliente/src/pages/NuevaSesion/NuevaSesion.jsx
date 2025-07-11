@@ -13,7 +13,7 @@ export default function NuevaSesion() {
        <SessionRecorder /> 
       </section>
       <section className="Subcontenedor_NuevaSession">
-
+            
       </section>
     </div>
   )
