@@ -10,7 +10,7 @@
 /* Resolucion Laptops */
 @media screen and (min-width:1280px) {
     #ContenedorVideoPlayer{
-        /* border: 2px solid green; */
+      /*   border: 5px solid green; */
         width: 40rem;
         padding: 0;
         margin: 0rem 0 0 0rem;

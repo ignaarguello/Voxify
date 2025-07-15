@@ -1,5 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
+
+//Estilos
 import './SessionRecorder.css';
+
+//Loader
+import { CircleLoader } from "react-spinners";
 
 export default function SessionRecorder() {
   // Estado para gestionar los permisos de la cámara y el stream
@@ -13,7 +18,6 @@ export default function SessionRecorder() {
     try {
       // Solicitamos acceso al video (cámara)
       const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-
       // Si el acceso es exitoso, actualizamos el estado con el stream y cambiamos el status
       setMediaStream(stream);
       setCameraStatus('granted');
@@ -39,7 +43,12 @@ export default function SessionRecorder() {
   const renderContent = () => {
     switch (cameraStatus) {
       case 'loading':
-        return null; // No mostramos nada mientras carga o antes de interactuar
+        return (
+          <div className="camera-loading">
+            <CircleLoader color='#ed7140'/>
+            <h3>Todo listo para tu nueva sesión...</h3>
+          </div>
+        ); // No mostramos nada mientras carga o antes de interactuar
       case 'denied':
         return (
           <div className="camera-error">

@@ -3,9 +3,10 @@
 
 /*? Resolucion Mobile */
 @media screen and (min-width: 1280px) {
+
     /* Contenedor Padre */
     #SessionRecorderWrapper {
-       /*  border: 2px solid red; */
+        /*  border: 2px solid red; */
         width: 100%;
         height: 100%;
         display: flex;
@@ -23,8 +24,8 @@
     }
 
     /* Wrapper del Video */
-    #VideoActiveSessionWrapper{
-        /* border: 2px solid red; */
+    #VideoActiveSessionWrapper {
+        /*         border: 5px solid blue; */
         height: 100%;
         width: 100%;
     }
@@ -40,17 +41,32 @@
     }
 
     /* Contenedor Pre render */
-    #Contenedor-Pre-Render{
-      /*   border: 2px solid green; */
+    #Contenedor-Pre-Render {
+        /*  border: 1px solid blue; */
         width: 100%;
         height: 100%;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%); 
+        /*      filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);  */
+    }
+
+    .camera-loading {
+        /* border: 2px solid greenyellow; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .camera-loading h3 {
+        font-weight: 200;
+        margin-top: 2rem;
     }
 
     /* Botones Grabar/Stop - Contenendor */
-    #Grabar-Stop_NS{
-       /*  border: 2px solid red; */
+    #Grabar-Stop_NS {
+        /*  border: 2px solid red; */
         padding: .8rem;
         width: 40%;
         height: 22%;
