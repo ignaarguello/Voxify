@@ -4,50 +4,54 @@
 /* Resolucion Laptops */
 @media screen and (min-width: 1280px) {
     #SelectorCanciones {
-        /* border: 2px solid greenyellow; */
+        /*  border: 2px solid greenyellow; */
         height: 80%;
-        width: 50%;
+        width: 100%;
     }
 
     /* Envolvente del componente de las canciones */
     #WrapperCanciones {
         /* border: 2px solid slateblue; */
         margin: 0.3rem 0rem 0rem 1rem;
-        width: 50%;
+        width: 100%;
         height: 9rem;
         overflow: scroll;
-        border-radius: 10px;
         background-color: white;
         cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /* Elemento Cancion */
-    .ElementoCancion_SelectorCanciones{
+    .ElementoCancion_SelectorCanciones {
+        /*  border: 2px solid red; */
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 15px;
+        padding: 10px;
         margin: 0px 0;
         height: 33%;
+        width: 50%;
         transition: .4s ease-in-out;
     }
 
-    .ElementoCancion_SelectorCanciones:hover{
+    .ElementoCancion_SelectorCanciones:hover {
         background-color: rgba(220, 220, 220, 0.459);
     }
-    
+
     .NombreCancion_SelectorCanciones {
         font-size: .9rem;
         font-weight: 400;
         color: grey;
     }
 
-    #IconoPlay{
+    #IconoPlay {
         color: var(--color-primario);
     }
 
     ::-webkit-scrollbar {
-        display: none; /* Hace que la barra de scroll sea invisible */
+        display: none;
+        /* Hace que la barra de scroll sea invisible */
     }
 }
 
@@ -55,30 +59,29 @@
 @media screen and (min-width: 1440px) {
     #SelectorCanciones {
         /* border: 2px solid greenyellow; */
-        height: 80%;
         width: 50%;
-        margin-left: 2rem;
+        margin-left: 5rem;
     }
 
     /* Envolvente del componente de las canciones */
     #WrapperCanciones {
-        /* border: 2px solid slateblue; */
-        height: 9.5rem;
-        margin: 0rem 0rem 0rem 1.2rem;
+       /*  border: 2px solid slateblue; */
+        height: 9rem;
+        margin: .1rem 0rem 0rem 0rem;
     }
 
-     /* Elemento Cancion */
-     .ElementoCancion_SelectorCanciones{
+    /* Elemento Cancion */
+    .ElementoCancion_SelectorCanciones {
+        /* border: 2px solid red; */
         height: 36%;
     }
 
     .NombreCancion_SelectorCanciones {
-      /*   border: 2px solid red; */
+       /*    border: 2px solid red; */
         font-weight: 400;
-        padding-left: .4rem;
     }
 
-    #IconoPlay{
+    #IconoPlay {
         width: 1.3rem;
         height: 1.3rem;
     }

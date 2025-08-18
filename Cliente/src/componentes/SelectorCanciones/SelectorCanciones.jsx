@@ -6,7 +6,7 @@ import './SelectorCanciones.css'
 //Iconos
 import { FaCirclePlay } from "react-icons/fa6";
 
-const DataArrayCanciones = ['A las nueve', 'Dime que te paso', 'Colgando en tu manos', 'Mariposa Traicionera', 'Dime que no', 'Tu misterioso alguien', 'Rakata']
+const DataArrayCanciones = ['A las nueve', 'Dime que te paso', 'Colgando en tu manos', 'Mariposa Traicionera', 'Dime que no', 'Tu misterioso alguien', 'Rakata', 'Como eran las cosas']
 
 export default function SelectorCanciones() {
     return (

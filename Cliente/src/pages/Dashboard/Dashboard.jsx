@@ -1,5 +1,3 @@
-import React from 'react'
-
 // Estilos
 import './Dashboard.css'
 
@@ -10,16 +8,8 @@ import SelectorCanciones from '../../componentes/SelectorCanciones/SelectorCanci
 
 export default function Dashboard() {
   return (
-    <div id='PaginaDashboard'>
-      <section id='SeccionFila_1'>
-        <VideoPlayer />
-        <div id='ContenedorImage'>
-          <h2 id='TituloPruebaGratis'>Prueba Gratis</h2>
-        </div>
-      </section>
-      <section id='SeccionFila_2'>
-        <SelectorCanciones />
-      </section>
+    <div id='PaginaDashboardHome'>
+
     </div>
   )
 }

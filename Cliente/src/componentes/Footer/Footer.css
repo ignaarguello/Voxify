@@ -1,14 +1,14 @@
 /* Resolucion Mobile */
 @media screen and (min-width:360px) {
-    #Footer{
+    #Footer {
         /* border: 2px solid palevioletred; */
     }
 }
 
 /* Resolucion Laptops */
 @media screen and (min-width:1280px) {
-    #Footer{
-       /*  border: 3px solid palevioletred; */
+    #Footer {
+         /* border: 3px solid palevioletred; */
         border-radius: 0 0 20px 0;
         width: 100%;
         height: 10%;
@@ -19,14 +19,30 @@
     }
 
     /* Menu Crear - 'Nueva Sesión' */
-    #MenuCrearNuevaSesion{
+    #MenuCrearNuevaSesion {
         /* border: 2px solid greenyellow; */
-        border-radius: 50px;
-        margin: 0 2rem 0 0rem;
-        padding: 10px 20px;
-        font-size: 13px;
-        color: white;
+        margin-right: 2rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .BotonCrearSesion {
         background-color: var(--color-primario);
+    }
+
+    .BotonFinalizarSesion {
+        background-color: var(--color-primario);
+    }
+
+    .BotonFinalizarSesion, .BotonCrearSesion{
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 12px;
         cursor: pointer;
+        border-radius: 30px;
+        color: white;
+        font-size: 14px;
     }
 }

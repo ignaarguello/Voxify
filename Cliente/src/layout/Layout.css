@@ -2,14 +2,14 @@
 /* Contenedor Padre - Aplicación  */
   #ContenedorGeneralLayout{
    /*  border: 2px solid red; */
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(37, 37, 37);
     height: 100vh;
     padding: 2rem;
   }
 
   /* Subcontenedor - Representa al Dashboard - Background Blanco */
   #SubcontenedorDashboard{
-    /* border: 2px solid slateblue; */
+    /* border: 5px solid slateblue; */
     border-radius: 20px;
     background-color: white;
     width: 100%;
