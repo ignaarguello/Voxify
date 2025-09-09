@@ -14,7 +14,8 @@ export default function Layout(props) {
             <section id='SubcontenedorDashboard'> {/* //Subcontenedor que representa el dashboard puntualmente */}
                 <Sidebar />
                 <div id='ContenidoLayout'>
-                    <HeaderContent titulo='Dashboard' />
+                    {/* <HeaderContent titulo='Dashboard' /> */}
+                    <h2 id='TituloHolaUsername'>Hola Ignacio 👋</h2>
                     <div id='ChildrenLayout'>{props.children}</div>
                     <Footer />
                 </div>
