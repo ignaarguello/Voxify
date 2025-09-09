@@ -1,7 +1,28 @@
 /* Resolucion Mobile */
 @media screen and (min-width:360px) {
+    /* Contenedor Genral Footer */
     #Footer {
         /* border: 2px solid palevioletred; */
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+
+    /* Menu contenedor de Botones - Crear - Finalizar Sesion  */
+    #ToogleMenuFooter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+    }
+
+    /* Clase general de los botones */
+    .ToggleBotonFooter{
+        /* border: 2px solid red; */
+        padding: 1rem;
+        color: var(--color-primario);
+        font-size: 1.2rem;
+        font-weight: 500;
     }
 }
 

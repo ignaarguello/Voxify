@@ -43,9 +43,9 @@ export default function Sidebar() {
       <section id="LogoVoxify"></section>
       <div id="ContenedorEnlaces">
         {Anclajes.map((anclaje, index) => (
-          <Link id="EnlaceSidebar" key={index} to={anclaje.url} className="EnlaceSidebar">
+          <Link id="EnlaceSidebar" key={index} to={anclaje.url}>
             <figure id="IconosContenedor">{anclaje.icono}</figure>
-            <span key={index}>
+            <span id="AnchorSidebar" key={index}>
               {anclaje.label}
             </span>
           </Link>
