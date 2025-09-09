@@ -11,7 +11,7 @@ export default function Dashboard() {
     <div id='PaginaDashboardHome'>
       <div id='ContenedorTitulos_Dashboard'>
         <h2 id='TituloBienvenidoVoxify'>Bienvenido a <span id='SpanVoxify'>Voxify</span></h2>
-        <span className='ParrafoPrincipalIndividual'>Canta y conecta con otras personas</span>
+        <span className='Subtitulo_CantaYConecta'>Canta y conecta con otras personas</span>
       </div>
     </div>
   )
