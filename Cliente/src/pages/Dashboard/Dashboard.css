@@ -13,11 +13,10 @@
         }
 
         /* Contenedor de Titulos y Subtiulos */
-        #ContenedorTitulos_Dashboard{
+        #ContenedorTitulos_Dashboard {
+            /* border: 2px solid red; */
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
         }
 
         /* Titulo Bienvenido a Voxify */
@@ -33,9 +32,10 @@
         }
 
         /* Subtitulo - Canta y Conecta */
-        .Subtitulo_CantaYConecta{
+        .Subtitulo_CantaYConecta {
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: 1rem;
+            color: gray;
         }
     }
 
@@ -47,10 +47,16 @@
             /* border: 2px solid red; */
         }
 
+        /* Contenedor de Titulos y Subtiulos */
+        #ContenedorTitulos_Dashboard {
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+        }
+
         /* Titulo Bienvenido a Voxify */
         #TituloBienvenidoVoxify {
             font-size: 3.5rem;
-            padding: 1rem;
             font-weight: 300;
         }
 
@@ -58,5 +64,11 @@
         #SpanVoxify {
             font-weight: 600;
             color: var(--color-primario);
+        }
+
+        /* Subtitulo - Canta y Conecta */
+        .Subtitulo_CantaYConecta {
+            font-weight: 600;
+            font-size: 1.2rem;
         }
     }
