@@ -9,11 +9,9 @@ import SelectorCanciones from '../../componentes/SelectorCanciones/SelectorCanci
 export default function Dashboard() {
   return (
     <div id='PaginaDashboardHome'>
-      <h2 id='TituloBienvenidoVoxify'>Bienvenido a <span id='SpanVoxify'>Voxify</span></h2>
-      <div id='ContenedorParrafosPrincipales_Dashboard'>
-        <span className='ParrafoPrincipalIndividual'>Crea y Desarrolla tu sesion online</span>
-        <span className='ParrafoPrincipalIndividual'>Explora y conecta con otras personas</span>
-        <span className='ParrafoPrincipalIndividual'>Edita y guarda tu sesion</span>
+      <div id='ContenedorTitulos_Dashboard'>
+        <h2 id='TituloBienvenidoVoxify'>Bienvenido a <span id='SpanVoxify'>Voxify</span></h2>
+        <span className='ParrafoPrincipalIndividual'>Canta y conecta con otras personas</span>
       </div>
     </div>
   )

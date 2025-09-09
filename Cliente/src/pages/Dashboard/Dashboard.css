@@ -1,5 +1,6 @@
     /*? Resolucion Mobile */
     @media screen and (min-width: 360px) {
+
         /* Contenedor Pagina Dashboard */
         #PaginaDashboardHome {
             /* border: 2px solid red; */
@@ -22,25 +23,11 @@
             font-weight: 600;
             color: var(--color-primario);
         }
-
-        /* Contenedor de las frases - parrafos principales */
-        #ContenedorParrafosPrincipales_Dashboard{
-            /* border: 2px solid aqua; */
-            display: flex;
-            flex-direction: column;
-            margin-top: 1rem;
-            gap: .3rem;
-        }
-
-        /* Item Individual */
-        .ParrafoPrincipalIndividual{
-            font-weight: 500;
-            font-size: 16px;
-        }
     }
 
     /*? Resolucion Laptop */
     @media screen and (min-width: 1280px) {
+
         /* Contenedor Pagina Dashboard */
         #PaginaDashboardHome {
             /* border: 2px solid red; */

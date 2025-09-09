@@ -15,7 +15,6 @@ export default function Layout(props) {
                 <Sidebar />
                 <div id='ContenidoLayout'>
                     {/* <HeaderContent titulo='Dashboard' /> */}
-                    <h2 id='TituloHolaUsername'>Hola Ignacio 👋</h2>
                     <div id='ChildrenLayout'>{props.children}</div>
                     <Footer />
                 </div>
