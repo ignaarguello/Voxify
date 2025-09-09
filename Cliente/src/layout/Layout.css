@@ -18,7 +18,7 @@
     flex-direction: column;
   }
 
-  /* Contenedor de Layout y Footer */
+  /* Contenedor de Layout general + Footer */
   #ContenidoLayout {
     /* border: 2px solid greenyellow; */
     width: 100%;
@@ -27,6 +27,7 @@
     flex-direction: column;
   }
 
+  /* Children que renderiza cada seccion */
   #ChildrenLayout {
     /* border: 2px solid sienna; */
     width: 100%;
@@ -36,6 +37,10 @@
     justify-content: center;
   }
 
+  /* Titulo del Saludo del Usuario - Username */
+  #TituloHolaUsername{
+    text-align: center;
+  }
 }
 
 
