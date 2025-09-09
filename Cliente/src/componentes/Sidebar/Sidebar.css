@@ -1,7 +1,8 @@
 /*? Resolucion Mobile */
 @media screen and (min-width: 360px) {
+    /* Contenedor General Sidebar */
     #Sidebar {
-        /* border: 2px solid red; */
+        border: 2px solid navy;
         /* border-radius: 30px; */
         height: 100%;
         width: 100%;
@@ -11,6 +12,7 @@
         margin-top: 2rem;
     }
 
+    /* Logo Voxify - Background */
     #LogoVoxify{
          /* border: 3px solid forestgreen; */
          border-radius: 60px;
@@ -19,6 +21,20 @@
          background-image: url('../../../public/imagenes/logo/VoxifyLogo.png');
          background-size: contain;
          background-position: center;
+     }
+
+     /* Contenedor de Enlaces - Anchors */
+     #ContenedorEnlaces{
+        border: 2px solid greenyellow;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    
+     }
+
+     /* Iconos */
+     #IconosContenedor{
+        display: none;
      }
 }
 
