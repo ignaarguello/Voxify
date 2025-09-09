@@ -3,12 +3,17 @@
         /* Contenedor Pagina Dashboard */
         #PaginaDashboardHome {
             /* border: 2px solid red; */
+            margin-top: 5rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         /* Titulo Bienvenido a Voxify */
         #TituloBienvenidoVoxify {
             font-size: 2rem;
-            padding: 1rem;
             font-weight: 300;
         }
 
@@ -16,6 +21,21 @@
         #SpanVoxify {
             font-weight: 600;
             color: var(--color-primario);
+        }
+
+        /* Contenedor de las frases - parrafos principales */
+        #ContenedorParrafosPrincipales_Dashboard{
+            /* border: 2px solid aqua; */
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+            gap: .3rem;
+        }
+
+        /* Item Individual */
+        .ParrafoPrincipalIndividual{
+            font-weight: 500;
+            font-size: 16px;
         }
     }
 
