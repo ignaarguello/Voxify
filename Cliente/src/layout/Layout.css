@@ -77,13 +77,12 @@
 
 
   #ChildrenLayout {
-    border: 2px solid sienna;
-    height: 90%;
+    /* border: 2px solid sienna; */
+    height: 93%;
     border-radius: 0;
     border-left: 1px solid gainsboro;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
 }

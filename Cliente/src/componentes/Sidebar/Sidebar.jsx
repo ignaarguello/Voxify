@@ -26,11 +26,6 @@ const Anclajes = [
     icono: <FaSearch />,
   },
   {
-    url: "/libreria",
-    label: "Libreria",
-    icono: <FaBook />,
-  },
-  {
     url: "/perfil",
     label: "Perfil",
     icono: <FaUser />,
