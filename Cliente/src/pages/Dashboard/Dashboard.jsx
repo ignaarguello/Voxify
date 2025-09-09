@@ -9,7 +9,8 @@ import SelectorCanciones from '../../componentes/SelectorCanciones/SelectorCanci
 export default function Dashboard() {
   return (
     <div id='PaginaDashboardHome'>
-
+      <h2 id='TituloBienvenidoVoxify'>Bienvenido a <span id='SpanVoxify'>Voxify</span></h2>
     </div>
   )
 }
+

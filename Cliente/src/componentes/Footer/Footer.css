@@ -33,6 +33,7 @@
     .BotonFinalizarSesion {
         background-color: var(--color-primario);
     }
+    
 
     .BotonFinalizarSesion, .BotonCrearSesion{
         width: 10rem;
