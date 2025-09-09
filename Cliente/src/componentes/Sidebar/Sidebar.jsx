@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const Anclajes = [
   {
     url: "/",
-    label: "Dashboard",
+    label: "Home",
     icono: <FaHome />,
   },
   {
