@@ -7,9 +7,9 @@ export default function Footer() {
   return (
     <div id='Footer'>
       {/* Menu Crear */}
-      <div id='MenuCrearNuevaSesion'>
-        <span className='BotonCrearSesion' onClick={() => alert('Iniciando Sesion...')}>Iniciar Sesion</span>
-        <span  className='BotonFinalizarSesion'onClick={() => alert('Cerrando Sesion...')}>Finalizar Sesion</span>
+      <div id='ToogleMenuFooter'>
+        <span className='ToggleBotonFooter BotonCrearSesion' onClick={() => alert('Iniciando Sesion...')}>Iniciar Sesion</span>
+        <span  className='ToggleBotonFooter  BotonFinalizarSesion'onClick={() => alert('Cerrando Sesion...')}>Finalizar Sesion</span>
       </div>
     </div>
   )

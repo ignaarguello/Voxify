@@ -2,14 +2,12 @@
 @media screen and (min-width: 360px) {
     /* Contenedor General Sidebar */
     #Sidebar {
-        border: 2px solid navy;
-        /* border-radius: 30px; */
-        height: 100%;
+        /* border: 2px solid navy; */
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 
     /* Logo Voxify - Background */
@@ -25,16 +23,23 @@
 
      /* Contenedor de Enlaces - Anchors */
      #ContenedorEnlaces{
-        border: 2px solid greenyellow;
+        /* border: 2px solid greenyellow; */
         width: 100%;
         display: flex;
         justify-content: space-around;
-    
+        padding: 5px;
      }
 
      /* Iconos */
      #IconosContenedor{
         display: none;
+     }
+
+     /* Anchors */
+     #EnlaceSidebar{
+        text-decoration: none;
+        color: var(--color-primario);
+        font-weight: 500;
      }
 }
 
