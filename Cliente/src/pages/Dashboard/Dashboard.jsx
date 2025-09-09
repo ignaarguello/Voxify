@@ -13,6 +13,12 @@ export default function Dashboard() {
         <h2 id='TituloBienvenidoVoxify'>Bienvenido a <span id='SpanVoxify'>Voxify</span></h2>
         <span className='Subtitulo_CantaYConecta'>Canta y conecta con otras personas</span>
       </div>
+      <div id='OrangeSquare_Dashboard'>
+        <div id="Subcontenedor_OS_Dashboard">
+          <span className="ButtonInteriorSquare_Dashboard">Quiero mi sesion</span>
+          <span className="ButtonInteriorSquare_Dashboard">Acerca de Voxify</span>
+        </div>
+      </div>
     </div>
   )
 }
