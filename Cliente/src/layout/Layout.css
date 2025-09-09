@@ -1,13 +1,14 @@
 /* 360px - Mobile */
 @media screen and (min-width: 360px) {
-/* Contenedor Padre - Aplicación  */
-  #ContenedorGeneralLayout{
+
+  /* Contenedor Padre - Aplicación  */
+  #ContenedorGeneralLayout {
     /* border: 2px solid red; */
     height: 100vh;
   }
 
   /* Subcontenedor - Representa al Dashboard - Background Blanco */
-  #SubcontenedorDashboard{
+  #SubcontenedorDashboard {
     /* border: 5px solid slateblue; */
     border-radius: 0px;
     background-color: white;
@@ -18,7 +19,7 @@
   }
 
   /* Contenedor de Layout y Footer */
-  #ContenidoLayout{
+  #ContenidoLayout {
     /* border: 2px solid greenyellow; */
     width: 100%;
     height: 100vh;
@@ -26,7 +27,7 @@
     flex-direction: column;
   }
 
-  #ChildrenLayout{
+  #ChildrenLayout {
     /* border: 2px solid sienna; */
     width: 100%;
     height: 90%;
@@ -34,45 +35,49 @@
     display: flex;
     justify-content: center;
   }
-    
+
 }
 
 
 
 /* 1280px - Laptops */
 @media screen and (min-width: 1280px) {
-/* Contenedor Padre - Aplicación  */
-  #ContenedorGeneralLayout{
-   /*  border: 2px solid red; */
+
+  /* Contenedor Padre - Aplicación  */
+  #ContenedorGeneralLayout {
+    /* border: 2px solid red; */
     background-color: rgb(37, 37, 37);
     height: 100vh;
     padding: 2rem;
   }
 
   /* Subcontenedor - Representa al Dashboard - Background Blanco */
-  #SubcontenedorDashboard{
+  #SubcontenedorDashboard {
     /* border: 5px solid slateblue; */
     border-radius: 20px;
     background-color: white;
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: row;
   }
 
   /* Contenedor de Layout y Footer */
-  #ContenidoLayout{
-  /*   border: 2px solid greenyellow; */
+  #ContenidoLayout {
+    /* border: 2px solid greenyellow; */
     width: 90%;
     height: 100%;
   }
 
 
-  #ChildrenLayout{
-   /*  border: 2px solid sienna; */
-    height: 78%;
-    border-radius: 0 20px 0px 0px;
-    border-bottom: 1px solid gainsboro;
+  #ChildrenLayout {
+    /* border: 2px solid sienna; */
+    height: 90%;
+    border-radius: 0;
     border-left: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-    
+
 }

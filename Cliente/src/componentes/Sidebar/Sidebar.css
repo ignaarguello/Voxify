@@ -14,8 +14,8 @@
     #LogoVoxify{
          /* border: 3px solid forestgreen; */
          border-radius: 60px;
-         height: 7rem;
-         width: 7rem;
+         height: 8rem;
+         width: 8rem;
          background-image: url('../../../public/imagenes/logo/VoxifyLogo.png');
          background-size: contain;
          background-position: center;
@@ -46,12 +46,9 @@
 /*? Resolucion Laptops */
 @media screen and (min-width: 1280px) {
     #Sidebar {
-       /*  border: 4px solid brown; */
-        /* border-radius: 30px; */
+        /* border: 4px solid brown; */
         height: 100%;
         width: 23%;
-       /*  border-right: 1px solid gainsboro; */
-        margin-top: 0; /* Corrige la altura que viene de mobile */
     }
 
     #LogoVoxify{
@@ -70,6 +67,7 @@
         height: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         padding: .5rem;
         gap: .5rem;
     }
