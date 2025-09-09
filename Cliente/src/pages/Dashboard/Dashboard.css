@@ -12,9 +12,17 @@
             align-items: center;
         }
 
+        /* Contenedor de Titulos y Subtiulos */
+        #ContenedorTitulos_Dashboard{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
         /* Titulo Bienvenido a Voxify */
         #TituloBienvenidoVoxify {
-            font-size: 2rem;
+            font-size: 2.4rem;
             font-weight: 300;
         }
 
@@ -22,6 +30,12 @@
         #SpanVoxify {
             font-weight: 600;
             color: var(--color-primario);
+        }
+
+        /* Subtitulo - Canta y Conecta */
+        .Subtitulo_CantaYConecta{
+            font-weight: 600;
+            font-size: 1.1rem;
         }
     }
 
