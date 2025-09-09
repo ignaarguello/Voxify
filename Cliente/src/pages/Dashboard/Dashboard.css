@@ -1,25 +1,41 @@
     /*? Resolucion Mobile */
-    @media screen and (min-width: 360px) {}
-
-    /*? Resolucion Laptop */
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 360px) {
         /* Contenedor Pagina Dashboard */
-        #PaginaDashboardHome{
+        #PaginaDashboardHome {
             /* border: 2px solid red; */
         }
 
         /* Titulo Bienvenido a Voxify */
-        #TituloBienvenidoVoxify{
+        #TituloBienvenidoVoxify {
+            font-size: 2rem;
+            padding: 1rem;
+            font-weight: 300;
+        }
+
+        /* Span Voxify */
+        #SpanVoxify {
+            font-weight: 600;
+            color: var(--color-primario);
+        }
+    }
+
+    /*? Resolucion Laptop */
+    @media screen and (min-width: 1280px) {
+        /* Contenedor Pagina Dashboard */
+        #PaginaDashboardHome {
+            /* border: 2px solid red; */
+        }
+
+        /* Titulo Bienvenido a Voxify */
+        #TituloBienvenidoVoxify {
             font-size: 3.5rem;
             padding: 1rem;
             font-weight: 300;
         }
-        
+
         /* Span Voxify */
-        #SpanVoxify{
+        #SpanVoxify {
             font-weight: 600;
             color: var(--color-primario);
         }
-        
-
     }
