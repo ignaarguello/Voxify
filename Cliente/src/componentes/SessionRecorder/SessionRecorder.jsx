@@ -75,13 +75,15 @@ export default function SessionRecorder() {
     }
   };
 
+
+  
   return (
     <div id='SessionRecorderWrapper'>
       <div id='Contenedor-Pre-Render'>{renderContent()}</div>
       {/* El botón ahora solo solicita el acceso a la cámara */}
       <section id='Grabar-Stop_NS'>
         <div onClick={getCameraAccess} id='BotonGrabar_NS'>Grabar</div>
-        <div onClick={getCameraAccess} id='BotonGrabar_NS'>Stop</div>
+        <div onClick={() => setCameraStatus('loading')} id='BotonGrabar_NS'>Stop</div>
       </section>
     </div>
   );
