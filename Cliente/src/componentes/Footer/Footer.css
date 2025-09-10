@@ -9,7 +9,7 @@
         justify-content: center;
         align-items: center;
         position: fixed;
-        bottom: 0;
+        bottom: 0rem;
         width: 100%;
         border-radius: 40px 40px 0px 0px;
         height: 4rem;
@@ -19,7 +19,8 @@
     #TituloVoxifyWebApp {
         color: var(--color-primario);
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 0 2rem;
     }
 }
 
@@ -36,8 +37,8 @@
     /* Titulo del Footer */
     #TituloVoxifyWebApp {
         color: var(--color-primario);
-        font-weight: 500;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 16px;
         cursor: pointer;
     }
 }
