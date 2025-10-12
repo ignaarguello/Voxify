@@ -68,6 +68,7 @@ export default function SessionRecorder() {
               playsInline
               muted
             />
+            <h2 id='BrandVoxifyVideoActive'>Voxify</h2>
           </section>
         );
       default:
@@ -82,8 +83,8 @@ export default function SessionRecorder() {
       <div id='Contenedor-Pre-Render'>{renderContent()}</div>
       {/* El botón ahora solo solicita el acceso a la cámara */}
       <section id='Grabar-Stop_NS'>
-        <div onClick={getCameraAccess} id='BotonGrabar_NS'>Grabar</div>
-        <div onClick={() => setCameraStatus('loading')} id='BotonGrabar_NS'>Stop</div>
+        <div onClick={getCameraAccess} className='BotonGrabar_NS'>Grabar</div>
+        <div onClick={() => setCameraStatus('loading')} className='BotonGrabar_NS'>Stop</div>
       </section>
     </div>
   );

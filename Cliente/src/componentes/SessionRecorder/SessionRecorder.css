@@ -1,128 +1,169 @@
 /*? Resolucion Mobile */
 @media screen and (min-width: 360px) {
+  /* Contenedor Padre */
+  #SessionRecorderWrapper {
+    /* s */
+    width: 100%;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+  }
 
-    /* Camara Estado - Loading */
-    .camera-loading{
-       /*  border: 2px solid greenyellow; */
-        margin-top: 1.5rem;
-        width: 100vw;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-    }
+  /* Contenedor Pre render */
+  #Contenedor-Pre-Render {
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 50%;
+  }
 
-    /* Camera Estado - Active */
-    #VideoActiveSessionWrapper{
-       /*  border: 2px solid red; */
-        margin-top: 1.5rem;
-        height: 50vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  /* Camara Estado - Loading */
+  .camera-loading {
+     /* border: 2px solid greenyellow; */
+    margin-top: 1.5rem;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
 
-    /* Video ActiveSession */
-    #VideoActiveSession{
-        height: 100%;
-        width: 100%;
-        transform: scaleX(-1);
-        object-fit: cover;
-        filter: grayscale(100%);
-    }
+  /* Camera Estado - Active */
+  #VideoActiveSessionWrapper {
+    /*  border: 2px solid red; */
+    margin-top: 1.5rem;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Video ActiveSession */
+  #VideoActiveSession {
+    height: 100%;
+    width: 100%;
+    transform: scaleX(-1);
+    object-fit: cover;
+    filter: grayscale(100%);
+    position: relative;
+  }
+
+  #BrandVoxifyVideoActive{
+    color: rgba(148, 148, 148, 0.542);
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 10rem;
+    right: 1rem;
+    font-size: 15px;
+  }
+
+  /* Botones Grabar/Stop - Contenendor */
+  #Grabar-Stop_NS {
+   /*  border: 5px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin: 1.2rem;
+  }
+
+  /* Clase para ambos botones */
+  .BotonGrabar_NS {
+    background-color: var(--color-primario);
+    width: 40%;
+    height: 3rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*? Resolucion Mobile */
 @media screen and (min-width: 1280px) {
+  /* Contenedor Padre */
+  #SessionRecorderWrapper {
+    /*  border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 1rem;
+  }
 
-    /* Contenedor Padre */
-    #SessionRecorderWrapper {
-        /*  border: 2px solid red; */
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        border-radius: 5px;
-        padding: 1rem;
-    }
+  /* Titulo */
+  #SessionRecorderWrapper h2 {
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+  }
 
-    /* Titulo */
-    #SessionRecorderWrapper h2 {
-        color: white;
-        font-weight: 200;
-        font-size: 20px;
-    }
+  /* Wrapper del Video */
+  #VideoActiveSessionWrapper {
+    /*         border: 5px solid blue; */
+    height: 100%;
+    width: 100%;
+  }
 
-    /* Wrapper del Video */
-    #VideoActiveSessionWrapper {
-        /*         border: 5px solid blue; */
-        height: 100%;
-        width: 100%;
-    }
+  /* Video Activo */
+  #VideoActiveSession {
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    object-fit: cover;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    -webkit-filter: saturate(50%);
+  }
 
-    /* Video Activo */
-    #VideoActiveSession {
-        width: 100%;
-        height: 100%;
-        transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        object-fit: cover;
-        border-radius: 10px;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%); 
-    }
+  /* Contenedor Pre render */
+  #Contenedor-Pre-Render {
+    border: 1px solid blue;
+    width: 70%;
+    height: 100%;
+  }
 
-    /* Contenedor Pre render */
-    #Contenedor-Pre-Render {
-        /*  border: 1px solid blue; */
-        width: 100%;
-        height: 100%;
-    }
+  .camera-loading {
+    /* border: 2px solid greenyellow; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 
-    .camera-loading {
-        /* border: 2px solid greenyellow; */
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-    }
+  .camera-loading h3 {
+    font-weight: 200;
+    margin-top: 2rem;
+  }
 
-    .camera-loading h3 {
-        font-weight: 200;
-        margin-top: 2rem;
-    }
+  /* Botones Grabar/Stop - Contenendor */
+  #Grabar-Stop_NS {
+    /*  border: 2px solid red; */
+    padding: 0.8rem;
+    width: 40%;
+    height: 22%;
+    display: flex;
+  }
 
-    /* Botones Grabar/Stop - Contenendor */
-    #Grabar-Stop_NS {
-        /*  border: 2px solid red; */
-        padding: .8rem;
-        width: 40%;
-        height: 22%;
-        display: flex;
-    }
-
-
-    #BotonGrabar_NS {
-        background-color: var(--color-primario);
-        color: white;
-        height: 100%;
-        padding: 10px 50px;
-        font-size: 18px;
-        border-radius: 50px;
-        font-weight: 200;
-        cursor: pointer;
-        transition: .5s ease;
-        margin: 0 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+  .BotonGrabar_NS {
+    background-color: var(--color-primario);
+    color: white;
+    height: 100%;
+    padding: 10px 50px;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
